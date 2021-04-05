@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+form, div {
+    display:block;
+}
+a,h1 {
+    margin:0;
+    padding:0;
+    font-size:0;
+    background:transparent;
+}
+input{
+    vertical-align:middle;
+}
