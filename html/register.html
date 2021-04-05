@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anonymous"></script>
+        <script src="" defer="defer"></script>
+        <script src="j" defer="defer"></script>    
+        <title>Register</title>    
+    </head>
+    <body>
+        <header>
+            <h1>Register</h1>
+            <a href="index.html">
+                <button id="back-to-login">Back to Login</button>
+            </a>            
+        </header>
+        <form>
+            <div class="field-container">
+                <label for="name">
+                    Name:
+                </label>
+                <input type="text" name="name" id="form-name">
+            </div>
+            <div class="field-container">
+                <label for="email">
+                    E-mail:
+                </label>
+                <input type="text" name="email" id="form-email">
+            </div>
+            <div class="field-container">
+                <label for="first-password">
+                    Create a password:
+                </label>
+                <input type="text" name="first-password" id="form-first-password">
+            </div>
+            <div class="field-container">
+                <label for="second-password">
+                    Confirm password:
+                </label>
+                <input type="text" name="second-password" id="form-second-password">                
+            </div>
+            <div id="form-buttons">
+                <button id="reset-fields-button">Reset fields</button>
+                <input type="submit" value="Submit" id="submit-button">
+                
+            </div>            
+        </form>
+        <div id="error-log-container">
+            <ul>
+                <li>Errors</li>
+            </ul>
+    </body>
+</html>
